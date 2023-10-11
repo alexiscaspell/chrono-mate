@@ -1,0 +1,41 @@
+
+auth:
+  username: tuUser
+  password: tuPass
+
+special_tasks:
+  soporte_development: SP18-291
+  soporte_qa: SP18-292
+  soporte_prod: SP18-285
+  implementaciones: SP18-286
+  vacaciones: SP18-287
+  tramite_personal: SP18-288
+  examenes: SP18-289
+  enfermedad: SP18-290
+  reuniones: SP18-294
+
+calendar:
+  today: "2023-03-10"
+  first_day: lunes 
+  last_day:  viernes
+
+hours:
+  soporte_development: 20%
+  soporte_qa: 0%
+  soporte_prod: 0%
+  reuniones: 20%
+  vacaciones: 0%
+  enfermedad: 0%
+  tareas: 60%
+
+tasks:
+  issues_key: tareas
+  daily_hours: 8hs
+  lower_hours: 1hs
+  medium_hours: 8hs
+  high_hours: 16hs
+
+  kanban_boards:
+    - SP18
+
+dry_run: true
